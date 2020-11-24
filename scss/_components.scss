@@ -1,0 +1,81 @@
+.site-logo {
+    height: 3rem;
+    transition: 0.7s;
+    
+    &:hover{
+        transform: rotate(360deg);
+    }
+}
+
+.header-title {
+    font-size: 2rem;
+    color: white;
+    animation: textFromLeft 1s;
+}
+
+.header-subtitle {
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    animation: textFromRight 1s;
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+    background-color: $main-color;
+    border-radius: 5px;
+    padding: 0.25rem 1rem;
+    outline: none;
+    border: none;
+    animation: appear 1s;
+    cursor: pointer;
+    box-shadow: 0px 1px 4px 0px $main-color-light;
+    transition-duration: 0.3s;
+
+    &:hover {
+        color: white;
+        background-color: $main-color-light;
+        box-shadow: 0px 2px 8px 0px $main-color-light;
+    }
+}
+
+.icon-down {
+    position: absolute;
+    width: 2.5rem;
+    bottom: 1rem;
+    animation: appear2 1s alternate infinite;
+}
+
+.education-card {
+    text-align: center;
+    padding: 1rem;
+    margin: 0.5rem 1rem;
+    border-radius: 0.5rem;  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    transition: 0.2s ease-in-out;
+    flex: 1;
+    box-shadow: 2px 2px 8px 1px #444444;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+
+    &--java {
+        @extend .education-card;
+        background-image: linear-gradient(to right bottom, rgba(white, 0.5),rgba(white, 0.9)), url('/img/java.jpg');
+    }
+
+    &--nodejs {
+        @extend .education-card;
+        background-image: linear-gradient(to right bottom, rgba(white, 0.5),rgba(white, 0.9)), url('/img/nodejs.jpg');
+    }
+
+    &--flutter {
+        @extend .education-card;
+        background-image: linear-gradient(to right bottom, rgba(white, 0.5),rgba(white, 0.9)), url('/img/flutter.jpg');
+    }
+}
