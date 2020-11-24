@@ -66,17 +66,17 @@
 
     &--java {
         @extend .education-card;
-        background-image: linear-gradient(to right bottom, rgba(white, 0.5),rgba(white, 0.9)), url('/img/java.jpg');
+        background-image: linear-gradient(to right bottom, rgba(white, 0.5),rgba(white, 0.9)), url('img/java.jpg');
     }
 
     &--nodejs {
         @extend .education-card;
-        background-image: linear-gradient(to right bottom, rgba(white, 0.5),rgba(white, 0.9)), url('/img/nodejs.jpg');
+        background-image: linear-gradient(to right bottom, rgba(white, 0.5),rgba(white, 0.9)), url('img/nodejs.jpg');
     }
 
     &--flutter {
         @extend .education-card;
-        background-image: linear-gradient(to right bottom, rgba(white, 0.5),rgba(white, 0.9)), url('/img/flutter.jpg');
+        background-image: linear-gradient(to right bottom, rgba(white, 0.5),rgba(white, 0.9)), url('img/flutter.jpg');
     }
 }
 
