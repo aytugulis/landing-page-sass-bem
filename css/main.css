@@ -88,7 +88,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-image: linear-gradient(to right bottom, rgba(152, 52, 39, 0.2), rgba(172, 59, 44, 0.2)), url("/img/header.jpg");
+  background-image: linear-gradient(to right bottom, rgba(152, 52, 39, 0.2), rgba(172, 59, 44, 0.2)), url("../img/header.jpg");
   background-size: cover;
   background-position: center,center;
 }
@@ -200,6 +200,39 @@ body {
   }
 }
 
+.form {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.form-label {
+  color: #214252;
+  font-weight: bold;
+  display: block;
+}
+
+.form-input {
+  width: 100%;
+  margin-top: 0.25;
+  margin-bottom: 0.75;
+  outline: none;
+  border: 1.4px solid #214252;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  color: inherit;
+  resize: vertical;
+  max-height: 150px;
+  background-color: #E8F0FE;
+}
+
+.form-input:hover, .form-input:focus {
+  border-color: #12252e;
+}
+
+.form-input::placeholder {
+  color: #555555;
+}
+
 .site-logo {
   height: 3rem;
   transition: 0.7s;
@@ -277,39 +310,6 @@ body {
 
 .education-card--flutter {
   background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.9)), url("/img/flutter.jpg");
-}
-
-.form {
-  max-width: 900px;
-  margin: 0 auto;
-}
-
-.form-label {
-  color: #214252;
-  font-weight: bold;
-  display: block;
-}
-
-.form-input {
-  width: 100%;
-  margin-top: 0.25;
-  margin-bottom: 0.75;
-  outline: none;
-  border: 1.4px solid #214252;
-  border-radius: 0.2rem;
-  padding: 0.5rem;
-  color: inherit;
-  resize: vertical;
-  max-height: 150px;
-  background-color: #E8F0FE;
-}
-
-.form-input:hover, .form-input:focus {
-  border-color: #12252e;
-}
-
-.form-input::placeholder {
-  color: #555555;
 }
 
 .btn-container {

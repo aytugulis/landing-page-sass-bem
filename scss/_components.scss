@@ -79,3 +79,21 @@
         background-image: linear-gradient(to right bottom, rgba(white, 0.5),rgba(white, 0.9)), url('/img/flutter.jpg');
     }
 }
+
+.btn-container {
+    text-align: right;
+}
+
+.btn-lg {
+    @extend .btn;
+    font-size: 1.2rem;
+    border-radius: 0.2rem;
+    padding: 0.3rem 1.6rem;
+    margin-top: 0.8rem;
+    background-color: $main-font-color;
+    box-shadow: 0px 1px 4px 0px $main-font-color;
+    &:hover {
+        background-color: lighten($main-font-color,3);
+        box-shadow: 0px 2px 8px 0px $main-font-color;
+    }
+}

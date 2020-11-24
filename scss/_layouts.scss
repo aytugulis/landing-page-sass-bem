@@ -7,7 +7,7 @@ body {
     height: 100vh;
     @include flexCenter;
     flex-direction: column;
-    background-image:linear-gradient(to right bottom, rgba($main-color-dark,0.2), rgba($main-color,0.2)), url('/img/header.jpg');
+    background-image:linear-gradient(to right bottom, rgba($main-color-dark,0.2), rgba($main-color,0.2)), url('../img/header.jpg');
     background-size: cover;
     background-position: center,center;
 }
@@ -107,4 +107,37 @@ body {
         max-width: 80%;
     }
 
+}
+
+
+.form {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.form-label {
+    color: $main-font-color;
+    font-weight: bold;
+    display: block;
+}  
+
+.form-input {
+    width: 100%;
+    margin-top: 0.25;
+    margin-bottom: 0.75;
+    outline: none;
+    border: 1.4px solid $main-font-color;
+    border-radius: 0.2rem;
+    padding: 0.5rem;
+    color: inherit;
+    resize: vertical;
+    max-height: 150px;
+    background-color: #E8F0FE;
+
+    &:hover, &:focus {
+        border-color: darken($main-font-color,10);
+    }
+    &::placeholder{
+        color:rgb(85, 85, 85);
+    }
 }
