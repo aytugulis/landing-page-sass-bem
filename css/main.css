@@ -301,15 +301,15 @@ body {
 }
 
 .education-card--java {
-  background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.9)), url("/img/java.jpg");
+  background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.9)), url("img/java.jpg");
 }
 
 .education-card--nodejs {
-  background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.9)), url("/img/nodejs.jpg");
+  background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.9)), url("img/nodejs.jpg");
 }
 
 .education-card--flutter {
-  background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.9)), url("/img/flutter.jpg");
+  background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.9)), url("img/flutter.jpg");
 }
 
 .btn-container {
